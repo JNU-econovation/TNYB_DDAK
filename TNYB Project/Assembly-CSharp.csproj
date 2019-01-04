@@ -55,6 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\03_Scripts\04_Cashier\GameManager.cs" />
+    <Compile Include="Assets\03_Scripts\04_Cashier\Hand.cs" />
+    <Compile Include="Assets\03_Scripts\04_Cashier\Marchandise.cs" />
+    <Compile Include="Assets\03_Scripts\04_Cashier\Timer.cs" />
     <None Include="Assets\Resources\04_Cashier\FreePixelFood\ReadMe.txt" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>

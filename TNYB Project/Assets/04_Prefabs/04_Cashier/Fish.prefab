@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50822719745043950}
   - component: {fileID: 58813063340674206}
   - component: {fileID: 114745134256887584}
+  - component: {fileID: 95017257357989380}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -57,8 +58,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
-  m_Material: {fileID: 0}
+  m_GravityScale: 2.3
+  m_Material: {fileID: 6200000, guid: fb304c4f343e8484f8df3f22521bb72f, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -78,6 +79,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!95 &95017257357989380
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1814516456517072}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9c486cdb69f1a44308e647da19b3613f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114745134256887584
 MonoBehaviour:
   m_ObjectHideFlags: 1

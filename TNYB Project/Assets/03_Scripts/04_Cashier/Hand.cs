@@ -16,7 +16,7 @@ public class Hand : MonoBehaviour
 	private void Awake()
 	{
 		instance = this;
-		sr.GetComponent<SpriteRenderer>();
+		sr = GetComponent<SpriteRenderer>();
 		Color tColor = sr.color;
 		tColor.a = 0f;
 		sr.color = tColor;

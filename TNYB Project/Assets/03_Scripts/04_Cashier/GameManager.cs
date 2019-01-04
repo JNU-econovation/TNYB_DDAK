@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 	public Transform handTf1, handTf2, handTf3;
 	private List<Transform> handTfList = new List<Transform>();
 	public static int handTfIndex;
+	
 	public Transform marchandiseTf1, marchandiseTf2, marchandiseTf3;
 	private List<Transform> marchandiseTfList = new List<Transform>();
 	
@@ -63,10 +64,17 @@ public class GameManager : MonoBehaviour
 		{
 			RespawnRandomTfHand();
 		}
+		
+		if (bCanMarchandiseRespawn)
+		{
+			RespawnMarchandise();
+			bCanMarchandiseRespawn = false;
+		}
 	}
 
 	private void RespawnRandomTfHand()
 	{
+		bCanHandRespawn = false;
 		handTfIndex = Random.Range(0, handTfList.Count);
 		GameObject tempHand;
 		tempHand = Instantiate(hand);

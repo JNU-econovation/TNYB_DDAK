@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="710968be-9b70-486b-9989-908011e47bbf" name="Default Changelist" comment="" />
+    <list default="true" id="710968be-9b70-486b-9989-908011e47bbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TNYB Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TNYB Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/06/060e2ce974fe6443c849526d912c49be" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/06/060e2ce974fe6443c849526d912c49be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,17 +24,18 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1219" />
+          <entry key="cs" value="1378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1219" />
+          <entry key="C#" value="1378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,14 +51,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+            <state relative-caret-position="430">
+              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
               <folding>
-                <marker date="1546613188831" expanded="true" signature="6:78" ph="..." />
+                <marker date="1546613188831" expanded="false" signature="6:78" ph="..." />
                 <marker date="1546613188831" expanded="true" signature="120:2489" ph="{...}" />
                 <marker date="1546613188831" expanded="true" signature="799:832" ph="{...}" />
                 <marker date="1546613188831" expanded="true" signature="855:1461" ph="{...}" />
@@ -96,17 +107,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               <folding>
-                <marker date="1546610399344" expanded="false" signature="6:78" ph="..." />
-                <marker date="1546610399344" expanded="true" signature="121:273" ph="{...}" />
-                <marker date="1546610399344" expanded="true" signature="151:227" ph="{...}" />
-                <marker date="1546610399344" expanded="true" signature="249:271" ph="{...}" />
-                <marker date="1546610399344" expanded="true" signature="255:268" ph="/* 점수 + ... */" />
+                <marker date="1546837259730" expanded="false" signature="6:78" ph="..." />
+                <marker date="1546837259730" expanded="true" signature="120:646" ph="{...}" />
+                <marker date="1546837259730" expanded="true" signature="257:495" ph="{...}" />
+                <marker date="1546837259730" expanded="true" signature="335:492" ph="{...}" />
+                <marker date="1546837259730" expanded="true" signature="524:600" ph="{...}" />
+                <marker date="1546837259730" expanded="true" signature="622:644" ph="{...}" />
+                <marker date="1546837259730" expanded="true" signature="628:641" ph="/* 점수 + ... */" />
               </folding>
             </state>
           </provider>
@@ -151,10 +164,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs" />
         <option value="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Hand.cs" />
         <option value="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs" />
       </list>
     </option>
   </component>
@@ -165,7 +178,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="303" />
+    <option name="x" value="253" />
     <option name="y" value="23" />
     <option name="width" value="1331" />
     <option name="height" value="1027" />
@@ -179,10 +192,10 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,11 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546607776349</updated>
       <workItem from="1546607780333" duration="3405000" />
+      <workItem from="1546831810115" duration="1660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3405000" />
+    <option name="totallyTimeSpent" value="5065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,19 +259,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="303" y="23" width="1331" height="1027" extended-state="0" />
+    <frame x="253" y="23" width="1331" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10705974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10861132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -265,11 +272,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,20 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <marker date="1546610399344" expanded="false" signature="6:78" ph="..." />
-            <marker date="1546610399344" expanded="true" signature="121:273" ph="{...}" />
-            <marker date="1546610399344" expanded="true" signature="151:227" ph="{...}" />
-            <marker date="1546610399344" expanded="true" signature="249:271" ph="{...}" />
-            <marker date="1546610399344" expanded="true" signature="255:268" ph="/* 점수 + ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Hand.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -350,10 +351,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+        <state relative-caret-position="430">
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
           <folding>
-            <marker date="1546613188831" expanded="true" signature="6:78" ph="..." />
+            <marker date="1546613188831" expanded="false" signature="6:78" ph="..." />
             <marker date="1546613188831" expanded="true" signature="120:2489" ph="{...}" />
             <marker date="1546613188831" expanded="true" signature="799:832" ph="{...}" />
             <marker date="1546613188831" expanded="true" signature="855:1461" ph="{...}" />
@@ -367,6 +368,22 @@
             <marker date="1546613188831" expanded="true" signature="2319:2348" ph="{...}" />
             <marker date="1546613188831" expanded="true" signature="2397:2433" ph="{...}" />
             <marker date="1546613188831" expanded="true" signature="2466:2487" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/03_Scripts/04_Cashier/Marchandise.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <marker date="1546837259730" expanded="false" signature="6:78" ph="..." />
+            <marker date="1546837259730" expanded="true" signature="120:646" ph="{...}" />
+            <marker date="1546837259730" expanded="true" signature="257:495" ph="{...}" />
+            <marker date="1546837259730" expanded="true" signature="335:492" ph="{...}" />
+            <marker date="1546837259730" expanded="true" signature="524:600" ph="{...}" />
+            <marker date="1546837259730" expanded="true" signature="622:644" ph="{...}" />
+            <marker date="1546837259730" expanded="true" signature="628:641" ph="/* 점수 + ... */" />
           </folding>
         </state>
       </provider>

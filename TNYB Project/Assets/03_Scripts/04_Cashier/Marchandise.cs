@@ -2,7 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Marchandise : MonoBehaviour {
+public class Marchandise : MonoBehaviour
+{
+	private Rigidbody2D rb2d;
+	public float forcePowerToPotato = 2.0f;
+	public float tourquePowerToPotato = 2.0f;
+	public float randPowerStandard = 10.0f;
+	
+	private void Start()
+	{
+		rb2d = GetComponent<Rigidbody2D>();
+		float randPower = Random.Range(randPowerStandard - 3, randPowerStandard + 3);
+		rb2d.AddForce(Vector3.up * randPower);
+		
+		if (gameObject.tag == "potato")
+		{
+			rb2d.AddForce(Vector3.left * forcePowerToPotato);
+			rb2d.AddForce(Vector3.up * (forcePowerToPotato * 2) / 3);
+			rb2d.AddTorque(tourquePowerToPotato);
+		}
+	}
 
 	private void OnMouseDown()
 	{

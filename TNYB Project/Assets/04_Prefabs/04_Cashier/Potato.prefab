@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 50287601613652354}
   - component: {fileID: 58178930809807776}
   - component: {fileID: 114171120565332868}
+  - component: {fileID: 114520677860846132}
   m_Layer: 0
   m_Name: Potato
-  m_TagString: Untagged
+  m_TagString: potato
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +55,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2.2
@@ -89,6 +90,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060e2ce974fe6443c849526d912c49be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randPowerStandard: 10
+--- !u!114 &114520677860846132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1635417301147324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e9c327290d343d39c8b6115682579c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forcePower: 200
+  rotateSpeed: 1
 --- !u!212 &212171328027735858
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  HandSprite: {fileID: 21300000, guid: b19b9e19353364e9399bc2770d27c1cd, type: 3}
+  HandSprite: {fileID: 21300000, guid: 156bb6e1005f0418892f4daac74bef3e, type: 3}
   delayTimeBetweenHands: 0.3
 --- !u!212 &212983941196500510
 SpriteRenderer:
@@ -90,7 +90,7 @@ SpriteRenderer:
   m_SortingLayerID: -238203377
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: b19b9e19353364e9399bc2770d27c1cd, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 156bb6e1005f0418892f4daac74bef3e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

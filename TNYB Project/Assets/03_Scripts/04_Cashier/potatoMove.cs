@@ -9,12 +9,14 @@ public class potatoMove : MonoBehaviour {
 	[SerializeField]private float forceUpPower = 2.0f;
 	[SerializeField]private float torquePower = 500.0f;
 	private int leftRight;
-	
-	// Use this for initialization
-	void Start ()
+
+	private void Awake()
 	{
 		rb2d = GetComponent<Rigidbody2D>();
-		
+	}
+
+	void Start ()
+	{
 		// Random Setting
 		leftRight = Random.Range(0, 2);
 		float randomForceHorizontalPower = Random.Range(forceHorizontalPower - 50, forceHorizontalPower + 50);

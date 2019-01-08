@@ -10,7 +10,7 @@ public class FishMove : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		pm2d.bounciness = Random.Range(0.9f, 1.1f);
+		pm2d.bounciness = Random.Range(0.8f, 1.0f);
 	}
 	
 	// Update is called once per frame

@@ -55,10 +55,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2.2
+  m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 27d23a3081ad94ea0803cac6ead06db7, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -102,8 +102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15e9c327290d343d39c8b6115682579c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forcePower: 200
-  rotateSpeed: 1
+  forceHorizontalPower: 300
+  forceUpPower: 350
+  torquePower: 120
 --- !u!212 &212171328027735858
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -139,7 +140,7 @@ SpriteRenderer:
   m_SortingLayerID: -238203377
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7dd21f826a119274bb085376073e5cbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27daf2afc57164f06b061b7428b1242c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

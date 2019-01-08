@@ -54,11 +54,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\03_Scripts\04_Cashier\FishMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\GameManager.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Hand.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Marchandise.cs" />
+    <Compile Include="Assets\03_Scripts\04_Cashier\potatoMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Timer.cs" />
-    <Compile Include="Assets\potatoMove.cs" />
     <None Include="Assets\Resources\04_Cashier\FreePixelFood\ReadMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

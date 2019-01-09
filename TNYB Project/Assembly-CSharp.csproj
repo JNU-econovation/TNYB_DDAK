@@ -60,6 +60,9 @@
     <Compile Include="Assets\03_Scripts\04_Cashier\Marchandise.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\potatoMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Timer.cs" />
+    <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\UI Kit\AI Files\README.txt" />
+    <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\UI Kit\Font\README.txt" />
+    <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\README.txt" />
     <None Include="Assets\Resources\04_Cashier\FreePixelFood\ReadMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

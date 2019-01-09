@@ -20,6 +20,17 @@
               <e p="ReadMe.txt" t="Include" />
             </e>
           </e>
+          <e p="Low Poly UI Kit - v.1.1c" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+            <e p="UI Kit" t="Include">
+              <e p="AI Files" t="Include">
+                <e p="ReadMe.txt" t="Include" />
+              </e>
+              <e p="Font" t="Include">
+                <e p="ReadMe.txt" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

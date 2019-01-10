@@ -17,6 +17,8 @@ public class Marchandise : MonoBehaviour
 	private void OnMouseDown()
 	{
 		GameManager.Instance.setIsClear(true);
+		int price = Random.Range(1000, 9999);
+		GameManager.Instance.changePriceText(price);
 		Destroy(gameObject, 0.1f);
 	}
 

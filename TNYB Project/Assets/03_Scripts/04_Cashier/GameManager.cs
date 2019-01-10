@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class GameManager : MonoBehaviour
 	
 	List<GameObject> marchandisePrefabsList = new List<GameObject>();
 	public GameObject marchandise1, marchandise2, marchandise3, marchandise4, marchandise5, marchandise6, marchandise7;
+	
+	// Text
+	public Text PriceTag;
 
 	private bool bCanHandRespawn = false;
 	private bool bCanMarchandiseRespawn = false;
@@ -90,6 +94,12 @@ public class GameManager : MonoBehaviour
 		GameObject tempMarchandise;
 		tempMarchandise = Instantiate(marchandisePrefabsList[marchandiseIndex]);
 		tempMarchandise.transform.position = marchandiseTfList[handTfIndex].position;
+	}
+	
+	// Price Text
+	public void changePriceText(int price)
+	{
+		PriceTag.text = price.ToString() + "$";
 	}
 
 	public void setbCanHandRespawn(bool b)

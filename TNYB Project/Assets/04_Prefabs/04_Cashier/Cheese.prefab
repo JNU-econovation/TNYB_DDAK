@@ -58,7 +58,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 2.2
   m_Material: {fileID: 6200000, guid: 9be43f1955b9a47f6bfa12837903a493, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b484392b2527447a58422784a78b40cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceHorizontalPower: 100
-  torquePower: 200
+  forceHorizontalPower: 120
+  torquePower: 50
 --- !u!114 &114875897710649136
 MonoBehaviour:
   m_ObjectHideFlags: 1

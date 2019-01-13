@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50742000348829302}
   - component: {fileID: 58033358122614642}
   - component: {fileID: 114638167908369600}
+  - component: {fileID: 114066158452807570}
   m_Layer: 0
   m_Name: Cherry
   m_TagString: Untagged
@@ -57,7 +58,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2.6
+  m_GravityScale: 2.3
   m_Material: {fileID: 6200000, guid: c7f1d4d3f6de2440c9b0dd5149cde167, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -78,6 +79,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.113443136}
   serializedVersion: 2
   m_Radius: 0.38655683
+--- !u!114 &114066158452807570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486561963288054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd93279dbb1f476a8140181f31b44aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceUpPower: 200
 --- !u!114 &114638167908369600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -89,6 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060e2ce974fe6443c849526d912c49be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randPowerStandard: 10
 --- !u!212 &212799970827860756
 SpriteRenderer:
   m_ObjectHideFlags: 1

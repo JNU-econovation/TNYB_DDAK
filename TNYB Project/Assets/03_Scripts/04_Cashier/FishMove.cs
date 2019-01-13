@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FishMove : MonoBehaviour {
 
-	private Rigidbody2D rb2d;
 	public PhysicsMaterial2D pm2d;
 	
 	// Use this for initialization

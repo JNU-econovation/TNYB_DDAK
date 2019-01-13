@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class cherryMove : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	private Rigidbody2D rb2d;
+	[SerializeField]private float forceUpPower = 50.0f;
+	
+	void Awake()
+	{
+		rb2d = GetComponent<Rigidbody2D>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	void Start ()
+	{
+		float randomForceUpPower = Random.Range(forceUpPower - 50, forceUpPower + 50);
+		rb2d.AddForce(Vector3.up * randomForceUpPower);
 	}
 }

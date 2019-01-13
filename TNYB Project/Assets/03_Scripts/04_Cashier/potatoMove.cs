@@ -22,7 +22,6 @@ public class potatoMove : MonoBehaviour {
 		float randomForceHorizontalPower = Random.Range(forceHorizontalPower - 50, forceHorizontalPower + 50);
 		float randomForceUpPower = Random.Range(forceUpPower - 50, forceUpPower + 50);
 		
-		Debug.Log(leftRight);
 		if (leftRight == 0)
 		{
 			rb2d.AddForce(Vector3.left * randomForceHorizontalPower);

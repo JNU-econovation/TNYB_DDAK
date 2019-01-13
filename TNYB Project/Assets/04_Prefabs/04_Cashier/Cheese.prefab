@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50575920128004406}
   - component: {fileID: 58101186320827030}
   - component: {fileID: 114875897710649136}
+  - component: {fileID: 114016687374632416}
   m_Layer: 0
   m_Name: Cheese
   m_TagString: Untagged
@@ -78,6 +79,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &114016687374632416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293942267232492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b484392b2527447a58422784a78b40cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceHorizontalPower: 100
+  torquePower: 200
 --- !u!114 &114875897710649136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -89,6 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060e2ce974fe6443c849526d912c49be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randPowerStandard: 10
 --- !u!212 &212942233563969102
 SpriteRenderer:
   m_ObjectHideFlags: 1

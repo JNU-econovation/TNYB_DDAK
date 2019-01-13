@@ -6,6 +6,8 @@
       <e p="Assets" t="Include">
         <e p="03_Scripts" t="Include">
           <e p="04_Cashier" t="Include">
+            <e p="cheeseMove.cs" t="Include" />
+            <e p="cherryMove.cs" t="Include" />
             <e p="FishMove.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="Hand.cs" t="Include" />

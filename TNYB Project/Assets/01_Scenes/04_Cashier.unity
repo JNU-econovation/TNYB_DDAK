@@ -163,7 +163,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -110692201
   m_SortingLayer: 2
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 6f036bd7221034464b970c3ff06c8ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -180,12 +180,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 87331274}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.74, y: 0.98, z: 0}
   m_LocalScale: {x: 2.1448956, y: 2.1448956, z: 2.1448956}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1483575297}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94053793
 GameObject:
@@ -273,8 +273,8 @@ GameObject:
   - component: {fileID: 155609557}
   - component: {fileID: 155609560}
   m_Layer: 0
-  m_Name: Block1
-  m_TagString: Untagged
+  m_Name: Block_Bottom
+  m_TagString: bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -377,7 +377,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 4847219f927f14622ae4ba429e1e47ee, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1318,7 +1318,7 @@ GameObject:
   - component: {fileID: 894853080}
   - component: {fileID: 894853079}
   m_Layer: 0
-  m_Name: Block3
+  m_Name: Block_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1630,7 +1630,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d5ebd921bec9b476f966af925e07a8d2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9647059}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1671,8 +1671,9 @@ Transform:
   - {fileID: 826433050}
   - {fileID: 1864574175}
   - {fileID: 569594672}
+  - {fileID: 87331276}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1495436158
 GameObject:
@@ -1793,7 +1794,7 @@ Transform:
   m_Children:
   - {fileID: 891312673}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1497486784
 GameObject:
@@ -2023,7 +2024,7 @@ Transform:
   m_LocalScale: {x: 1.3403033, y: 1.3403033, z: 1.3403033}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1751905959
 GameObject:
@@ -2635,7 +2636,7 @@ GameObject:
   - component: {fileID: 2035958337}
   - component: {fileID: 2035958336}
   m_Layer: 0
-  m_Name: Block2
+  m_Name: Block_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

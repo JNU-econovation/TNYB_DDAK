@@ -64,7 +64,10 @@
     <Compile Include="Assets\03_Scripts\04_Cashier\Timer.cs" />
     <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\UI Kit\AI Files\README.txt" />
     <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\UI Kit\Font\README.txt" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\README.txt" />
+    <None Include="Assets\Firebase\Plugins\link.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
     <None Include="Assets\Resources\04_Cashier\FreePixelFood\ReadMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -269,6 +272,18 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/CoryKim/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>/Users/CoryKim/Documents/GitHub/TNYB_DDAK/TNYB Project/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

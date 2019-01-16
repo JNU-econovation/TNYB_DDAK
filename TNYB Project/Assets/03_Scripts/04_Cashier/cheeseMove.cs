@@ -18,9 +18,7 @@ public class cheeseMove : MonoBehaviour
 	}
 
 	public virtual void OnCollisionEnter2D(Collision2D col)
-	{
-		Debug.Log(col.gameObject);
-		
+	{		
 		if (isBounced)
 		{
 			return;

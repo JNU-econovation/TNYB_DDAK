@@ -34,7 +34,7 @@ public class Hand : MonoBehaviour
 	
 	private void Update()
 	{
-		if (transform.position.y < 0.24f && handFlag)
+		if (transform.position.y < 0.14f && handFlag)
 		{
 			sr.sprite = HandSprite;
 			

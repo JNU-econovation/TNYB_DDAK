@@ -18,6 +18,7 @@ public class EggMove : MonoBehaviour {
 		
 		float randPower = Random.Range(randPowerStandard - 3, randPowerStandard + 3);
 		rb2d.AddForce(Vector3.up * randPower);
+		isCrushed = false;
 	}
 	
 	private void OnMouseDown()
@@ -25,7 +26,7 @@ public class EggMove : MonoBehaviour {
 		if(!isCrushed)
 		{
 			GameManager.Instance.setIsClear(true);
-			int price = Random.Range(1000, 9999);
+			int price = Random.Range(1, 3) * 1000;
 			GameManager.Instance.changePriceText(price);
 			Destroy(gameObject, 0.1f);
 		}

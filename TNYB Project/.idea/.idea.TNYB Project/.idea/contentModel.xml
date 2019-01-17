@@ -8,12 +8,32 @@
           <e p="04_Cashier" t="Include">
             <e p="cheeseMove.cs" t="Include" />
             <e p="cherryMove.cs" t="Include" />
+            <e p="EggMove.cs" t="Include" />
             <e p="FishMove.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="Hand.cs" t="Include" />
             <e p="Marchandise.cs" t="Include" />
             <e p="potatoMove.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Firebase" t="Include">
+          <e p="m2repository" t="Include">
+            <e p="com" t="Include">
+              <e p="google" t="Include">
+                <e p="Firebase" t="Include">
+                  <e p="firebase-app-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                  <e p="firebase-auth-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="link.xml" t="Include" />
           </e>
         </e>
         <e p="Resources" t="Include">

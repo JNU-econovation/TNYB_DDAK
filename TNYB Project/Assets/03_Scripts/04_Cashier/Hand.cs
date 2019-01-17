@@ -5,13 +5,13 @@ using UnityEngine;
 public class Hand : MonoBehaviour
 {
 	private SpriteRenderer sr;
-	public float speed = 5f;
+	public float speed = 3f;
 	public static Hand instance;
 	public Sprite HandSprite;
 
 	private bool handFlag = true;
 	
-	public float delayTimeBetweenHands = 5.3f;
+	public float delayTimeBetweenHands = 0.3f;
 
 	private void Awake()
 	{
@@ -63,7 +63,7 @@ public class Hand : MonoBehaviour
 	public IEnumerator IeMoveUpCoroutine()
 	{
 		yield return null;
-		for(int i =0;i<15;i++)
+		for(int i =0;i<20;i++)
 		{
 			yield return new WaitForSeconds(0.01f);
 			transform.Translate(Vector3.down * Time.deltaTime * speed);	

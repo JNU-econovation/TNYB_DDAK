@@ -20,6 +20,8 @@ public class Marchandise : MonoBehaviour
 		int price = Random.Range(1000, 9999);
 		GameManager.Instance.changePriceText(price);
 		Destroy(gameObject, 0.1f);
+		
+		
 	}
 
 	public void Click()

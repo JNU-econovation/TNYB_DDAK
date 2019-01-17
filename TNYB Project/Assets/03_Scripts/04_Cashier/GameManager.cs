@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 	private List<Transform> marchandiseTfList = new List<Transform>();
 	
 	List<GameObject> marchandisePrefabsList = new List<GameObject>();
-	public GameObject marchandise1, marchandise2, marchandise3, marchandise4, marchandise5, marchandise6, marchandise7;
+	public GameObject marchandise1, marchandise2, marchandise3, marchandise4, marchandise5, marchandise6, marchandise7, marchandise8;
 	
 	// Text
 	public Text PriceTag;
@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
 		marchandisePrefabsList.Add(marchandise5);
 		marchandisePrefabsList.Add(marchandise6);
 		marchandisePrefabsList.Add(marchandise7);
+		marchandisePrefabsList.Add(marchandise8);
 	}
 	
 	void Start ()

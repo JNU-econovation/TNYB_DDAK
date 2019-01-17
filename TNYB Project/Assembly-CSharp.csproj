@@ -63,11 +63,14 @@
     <Compile Include="Assets\03_Scripts\04_Cashier\Marchandise.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\potatoMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Timer.cs" />
+    <None Include="Assets\Cyberleaf Music - Chiptunes Lite\readme.txt" />
+    <None Include="Assets\8-bit 8Pack\readme.txt" />
     <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\UI Kit\AI Files\README.txt" />
     <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\UI Kit\Font\README.txt" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <None Include="Assets\Resources\Low Poly UI Kit - v.1.1c\README.txt" />
     <None Include="Assets\Firebase\Plugins\link.xml" />
+    <None Include="Assets\8 Bit Composers Super Pack LE (Free)\8 Bit Composers Super Pack LE.txt" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
     <None Include="Assets\Resources\04_Cashier\FreePixelFood\ReadMe.txt" />
     <Reference Include="Unity.PackageManagerUI.Editor">

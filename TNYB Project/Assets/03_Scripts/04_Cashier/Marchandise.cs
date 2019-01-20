@@ -9,6 +9,7 @@ public class Marchandise : MonoBehaviour
 	
 	private void Start()
 	{
+		
 		rb2d = GetComponent<Rigidbody2D>();
 		float randPower = Random.Range(randPowerStandard - 3, randPowerStandard + 3);
 		rb2d.AddForce(Vector3.up * randPower);
@@ -17,11 +18,10 @@ public class Marchandise : MonoBehaviour
 	private void OnMouseDown()
 	{
 		GameManager.Instance.setIsClear(true);
-		int price = Random.Range(1000, 9999);
+		int price = Random.Range(1, 9) * 1000;
 		GameManager.Instance.changePriceText(price);
-		Destroy(gameObject, 0.1f);
-		
-		
+		GameManager.Instance.playScannerSound();
+		Destroy(gameObject, 0.01f);
 	}
 
 	public void Click()

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 58033358122614642}
   - component: {fileID: 114638167908369600}
   - component: {fileID: 114066158452807570}
+  - component: {fileID: 3830393320085435254}
   m_Layer: 0
   m_Name: Cherry
   m_TagString: Untagged
@@ -111,7 +112,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486561963288054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -146,3 +147,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceUpPower: 200
+--- !u!70 &3830393320085435254
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486561963288054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.025199402, y: 0}
+  m_Size: {x: 0.79000443, y: 0.99999994}
+  m_Direction: 0

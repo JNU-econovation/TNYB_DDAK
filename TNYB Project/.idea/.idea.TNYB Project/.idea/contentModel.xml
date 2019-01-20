@@ -14,8 +14,19 @@
             <e p="Hand.cs" t="Include" />
             <e p="Marchandise.cs" t="Include" />
             <e p="potatoMove.cs" t="Include" />
+            <e p="smallTissueMove.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
+            <e p="TissueMove.cs" t="Include" />
           </e>
+        </e>
+        <e p="8 Bit Composers Super Pack LE (Free)" t="Include">
+          <e p="8 Bit Composers Super Pack LE.txt" t="Include" />
+        </e>
+        <e p="8-bit 8Pack" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+        </e>
+        <e p="Cyberleaf Music - Chiptunes Lite" t="Include">
+          <e p="ReadMe.txt" t="Include" />
         </e>
         <e p="Firebase" t="Include">
           <e p="m2repository" t="Include">

@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
 	
 	// Text
 	public Text PriceTag;
+	
+	// Sound
+	private AudioSource audioSource;
+	public AudioClip scanner;
 
 	private bool bCanHandRespawn = false;
 	private bool bCanMarchandiseRespawn = false;
@@ -44,6 +48,8 @@ public class GameManager : MonoBehaviour
 		handTfList.Add(handTf2);
 		handTfList.Add(handTf3);
 		
+		// marchandise List Set
+		
 		marchandiseTfList.Add(marchandiseTf1);
 		marchandiseTfList.Add(marchandiseTf2);
 		marchandiseTfList.Add(marchandiseTf3);
@@ -56,6 +62,10 @@ public class GameManager : MonoBehaviour
 		marchandisePrefabsList.Add(marchandise6);
 		marchandisePrefabsList.Add(marchandise7);
 		marchandisePrefabsList.Add(marchandise8);
+		
+		// Audio
+		audioSource = GetComponent<AudioSource>();
+		audioSource.clip = scanner;
 	}
 	
 	void Start ()
@@ -101,6 +111,12 @@ public class GameManager : MonoBehaviour
 	public void changePriceText(int price)
 	{
 		PriceTag.text = price.ToString() + "$";
+	}
+	
+	// Play Audio
+	public void playScannerSound()
+	{
+		audioSource.Play();
 	}
 
 	public void setbCanHandRespawn(bool b)

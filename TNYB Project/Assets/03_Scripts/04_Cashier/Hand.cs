@@ -12,6 +12,13 @@ public class Hand : MonoBehaviour
 	private bool handFlag = true;
 	
 	public float delayTimeBetweenHands = 0.3f;
+	
+	// Audio
+	public AudioClip throw1;
+	public AudioClip throw2;
+	public AudioClip throw3;
+	private AudioSource audioSource;
+	private List<AudioClip> audioClipList = new List<AudioClip>();
 
 	private void Awake()
 	{
@@ -20,6 +27,11 @@ public class Hand : MonoBehaviour
 		Color tColor = sr.color;
 		tColor.a = 0f;
 		sr.color = tColor;
+
+		audioSource = GetComponent<AudioSource>();
+		audioClipList.Add(throw1);
+		audioClipList.Add(throw2);
+		audioClipList.Add(throw3);
 	}
 
 	void Start () {
@@ -40,7 +52,8 @@ public class Hand : MonoBehaviour
 			
 			//Respawn Marchandise
 			GameManager.Instance.setbCanMarchandiseRespawn(true);
-			
+			playThrowSound();
+
 			StartCoroutine(IeMoveUpCoroutine());
 			StartCoroutine(IeAlphaDownCoroutine());
 			DestroyHand(2f);
@@ -50,7 +63,14 @@ public class Hand : MonoBehaviour
 			handFlag = false;
 		}
 	}
-	
+
+	private void playThrowSound()
+	{
+		int randIndex = Random.Range(0, audioClipList.Count);
+		audioSource.clip = audioClipList[randIndex];
+		audioSource.Play();
+	}
+
 	public IEnumerator IeMoveDownCoroutine()
 	{
 		for(int i =0;i<30;i++)

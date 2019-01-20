@@ -11,6 +11,8 @@ public class EggMove : MonoBehaviour {
 	public float randPowerStandard = 10.0f;
 	private bool isCrushed = false;
 	
+	private AudioSource audioSource;
+	
 	private void Awake()
 	{
 		sr = GetComponent<SpriteRenderer>();
@@ -19,6 +21,8 @@ public class EggMove : MonoBehaviour {
 		float randPower = Random.Range(randPowerStandard - 3, randPowerStandard + 3);
 		rb2d.AddForce(Vector3.up * randPower);
 		isCrushed = false;
+		
+		audioSource = GetComponent<AudioSource>();
 	}
 	
 	private void OnMouseDown()
@@ -28,7 +32,8 @@ public class EggMove : MonoBehaviour {
 			GameManager.Instance.setIsClear(true);
 			int price = Random.Range(1, 3) * 1000;
 			GameManager.Instance.changePriceText(price);
-			Destroy(gameObject, 0.1f);
+			GameManager.Instance.playScannerSound();
+			Destroy(gameObject, 0.01f);
 		}
 	}
 	
@@ -38,6 +43,8 @@ public class EggMove : MonoBehaviour {
 		{
 			isCrushed = true;
 			sr.sprite = CrushedEgg;
+
+			audioSource.Play();
 			
 			// 얼마 뒤에 제거
 			StartCoroutine(IeAlphaDownCoroutine());

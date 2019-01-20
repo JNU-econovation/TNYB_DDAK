@@ -32,15 +32,29 @@ public class TissueMove : MonoBehaviour
 //        int price = Random.Range(1, 9) * 1000;
 //        GameManager.Instance.changePriceText(price);
         GameManager.Instance.playScannerSound();
+        GameManager.Instance.generateTissue();
         Destroy(gameObject, 0.01f);
     }
 
     private void RespawnTissues()
     {
+        GameObject tempTissue1, tempTissue2, tempTissue3, tempTissue4;
+        
         int randIndex = Random.Range(0, tissueList.Count);
-        GameObject tempTissue;
-        tempTissue = Instantiate(tissueList[randIndex]);
-        tempTissue.transform.position = this.transform.position;
+        tempTissue1 = Instantiate(tissueList[randIndex]);
+        tempTissue1.transform.position = this.transform.position + Vector3.left * 0.2f + Vector3.up * 0.2f;
+        
+        randIndex = Random.Range(0, tissueList.Count);
+        tempTissue2 = Instantiate(tissueList[randIndex]);
+        tempTissue2.transform.position = this.transform.position + Vector3.right * 0.2f + Vector3.up * 0.2f;
+        
+        randIndex = Random.Range(0, tissueList.Count);
+        tempTissue3 = Instantiate(tissueList[randIndex]);
+        tempTissue3.transform.position = this.transform.position + Vector3.left * 0.2f + Vector3.down * 0.2f;
+        
+        randIndex = Random.Range(0, tissueList.Count);
+        tempTissue4 = Instantiate(tissueList[randIndex]);
+        tempTissue4.transform.position = this.transform.position + Vector3.right * 0.2f + Vector3.down * 0.2f;
     }
 
     public void Click()

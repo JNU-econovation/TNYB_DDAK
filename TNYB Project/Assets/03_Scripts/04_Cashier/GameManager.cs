@@ -22,6 +22,9 @@ public class GameManager : MonoBehaviour
 	// Sound
 	private AudioSource audioSource;
 	public AudioClip scanner;
+	
+	// Tissue Zone
+	private int numberOfTissue;
 
 	private bool bCanHandRespawn = false;
 	private bool bCanMarchandiseRespawn = false;
@@ -132,5 +135,20 @@ public class GameManager : MonoBehaviour
 	public void setIsClear(bool b)
 	{
 		isClear = b;
+	}
+
+	public void generateTissue()
+	{
+		numberOfTissue = 4;
+	}
+	
+	public void clickTissue()
+	{
+		numberOfTissue--;
+	}
+
+	public int getNumberOfTissue()
+	{
+		return numberOfTissue;
 	}
 }

@@ -47,7 +47,6 @@ public class smallTissueMove : MonoBehaviour
         {
             GameManager.Instance.setIsClear(true);
         }
-        GameManager.Instance.changePriceText(500);
         GameManager.Instance.playScannerSound();
         Destroy(gameObject, 0.01f);
     }

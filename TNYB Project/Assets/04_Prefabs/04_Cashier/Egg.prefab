@@ -134,6 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CrushedEgg: {fileID: 21300072, guid: 59f573815a77e4b64a5d84e9440a0cf7, type: 3}
   randPowerStandard: 10
+  beforeHitTheGround: 1500
 --- !u!82 &684471012641553795
 AudioSource:
   m_ObjectHideFlags: 0

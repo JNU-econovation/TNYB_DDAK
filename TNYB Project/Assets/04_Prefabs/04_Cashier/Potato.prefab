@@ -134,5 +134,5 @@ MonoBehaviour:
   forceHorizontalPower: 300
   forceUpPower: 350
   torquePower: 120
-  beforeHitTheGround: 250
-  afterHitTheGround: 150
+  beforeHitTheGround: 2500
+  afterHitTheGround: 1500

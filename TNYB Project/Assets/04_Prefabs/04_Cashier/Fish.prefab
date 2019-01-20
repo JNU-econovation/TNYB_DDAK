@@ -154,6 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pm2d: {fileID: 6200000, guid: fb304c4f343e8484f8df3f22521bb72f, type: 2}
   randPowerStandard: 100
+  beforeHitTheGround: 2000
+  afterHitTheGround: 1000
 --- !u!82 &6030199843417410365
 AudioSource:
   m_ObjectHideFlags: 0

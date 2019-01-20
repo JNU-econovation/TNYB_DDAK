@@ -15,8 +15,8 @@ public class TissueMove : MonoBehaviour
     private bool isHitTheGround = false;
     private const string bottomTag = "bottom";
     
-    public int beforeHitTheGround = 100;
-    public int afterHitTheGround = 50;
+    public int beforeHitTheGround = 1000;
+    public int afterHitTheGround = 500;
     
     public virtual void OnCollisionEnter2D(Collision2D col)
     {		

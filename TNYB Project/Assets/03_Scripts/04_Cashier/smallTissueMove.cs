@@ -6,7 +6,26 @@ public class smallTissueMove : MonoBehaviour
 {
     private Rigidbody2D rb2d;
     public float randPowerStandard = 10.0f;
-    public int score = 50;
+    
+    public int beforeHitTheGround = 500;
+    public int afterHitTheGround = 300;
+    
+    private bool isHitTheGround;
+    private const string bottomTag = "bottom";
+    
+    public virtual void OnCollisionEnter2D(Collision2D col)
+    {		
+        if (isHitTheGround)
+        {
+            return;
+        }
+		
+        if (col.gameObject.tag.Equals(bottomTag))
+        {
+            // Hit The Ground
+            isHitTheGround = true;
+        }
+    }
 
     private void Awake()
     {
@@ -23,7 +42,7 @@ public class smallTissueMove : MonoBehaviour
     private void OnMouseDown()
     {
         GameManager.Instance.clickTissue();
-        addScore(score);
+        addScore(beforeHitTheGround, afterHitTheGround);
         if (GameManager.Instance.getNumberOfTissue() == 0)
         {
             GameManager.Instance.setIsClear(true);
@@ -33,8 +52,9 @@ public class smallTissueMove : MonoBehaviour
         Destroy(gameObject, 0.01f);
     }
 
-    private void addScore(int score)
+    private void addScore(int beforeHitTheGround, int afterHitTheGround)
     {
+        int score = (isHitTheGround) ? afterHitTheGround : beforeHitTheGround;
         GameManager.Instance.changePriceText(score);
         GameManager.Instance.addScore(score);
     }

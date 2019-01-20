@@ -132,3 +132,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceUpPower: 30
+  beforeHitTheGround: 3500
+  afterHitTheGround: 1000

@@ -13,8 +13,8 @@ public class potatoMove : MonoBehaviour {
 	private bool isHitTheGround = false;
 	private const string bottomTag = "bottom";
     
-	public int beforeHitTheGround = 250;
-	public int afterHitTheGround = 100;
+	public int beforeHitTheGround = 2500;
+	public int afterHitTheGround = 1000;
 	
 	public virtual void OnCollisionEnter2D(Collision2D col)
 	{		

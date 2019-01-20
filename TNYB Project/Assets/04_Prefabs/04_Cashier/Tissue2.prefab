@@ -142,3 +142,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randPowerStandard: 10
+  beforeHitTheGround: 500
+  afterHitTheGround: 300

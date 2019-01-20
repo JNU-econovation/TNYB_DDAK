@@ -134,3 +134,5 @@ MonoBehaviour:
   randPowerStandard: 30
   tissue1: {fileID: 9144651789649809227, guid: 2c557c873f8cc49c1ae5278a1ac38477, type: 3}
   tissue2: {fileID: 1113697969010235921, guid: 60b4c0d81031342099d659a2b5a1263c, type: 3}
+  beforeHitTheGround: 1000
+  afterHitTheGround: 500

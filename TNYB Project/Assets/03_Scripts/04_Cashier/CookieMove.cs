@@ -10,8 +10,8 @@ public class CookieMove : MonoBehaviour
     private bool isHitTheGround = false;
     private const string bottomTag = "bottom";
     
-    public int beforeHitTheGround = 300;
-    public int afterHitTheGround = 100;
+    public int beforeHitTheGround = 3500;
+    public int afterHitTheGround = 1000;
 	
     public virtual void OnCollisionEnter2D(Collision2D col)
     {		

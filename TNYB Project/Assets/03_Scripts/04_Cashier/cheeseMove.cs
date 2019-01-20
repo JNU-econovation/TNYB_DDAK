@@ -18,6 +18,9 @@ public class cheeseMove : MonoBehaviour
 	private AudioSource audioSource;
 	private List<AudioClip> audioClipList = new List<AudioClip>();
 	
+	public int beforeHitTheGround = 2000;
+	public int afterHitTheGround = 1000;
+	
 	// Use this for initialization
 	void Awake()
 	{
@@ -41,11 +44,11 @@ public class cheeseMove : MonoBehaviour
 			playBoingSound();
 			return;
 		}
-		playBoingSound();
-		isHitTheGround = true;
 		
 		if (col.gameObject.tag.Equals(bottomTag))
 		{
+			playBoingSound();
+			isHitTheGround = true;
 			leftRight = Random.Range(0, 2);
 			float randomForceHorizontalPower = Random.Range(forceHorizontalPower - 30, forceHorizontalPower + 30);
 		
@@ -65,7 +68,7 @@ public class cheeseMove : MonoBehaviour
 	private void OnMouseDown()
 	{
 		GameManager.Instance.setIsClear(true);
-		addSore(200, 100);
+		addSore(beforeHitTheGround, afterHitTheGround);
 		GameManager.Instance.playScannerSound();
 		Destroy(gameObject, 0.01f);
 	}

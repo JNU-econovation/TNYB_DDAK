@@ -56,11 +56,13 @@
   <ItemGroup>
     <Compile Include="Assets\03_Scripts\04_Cashier\cheeseMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\cherryMove.cs" />
+    <Compile Include="Assets\03_Scripts\04_Cashier\CookieMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\EggMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\FishMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\GameManager.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Hand.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Marchandise.cs" />
+    <Compile Include="Assets\03_Scripts\04_Cashier\MilkMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\potatoMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\smallTissueMove.cs" />
     <Compile Include="Assets\03_Scripts\04_Cashier\Timer.cs" />

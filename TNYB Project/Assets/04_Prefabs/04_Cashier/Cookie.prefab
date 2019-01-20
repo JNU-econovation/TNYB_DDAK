@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4797084350145884}
   - component: {fileID: 212462130236545112}
-  - component: {fileID: 114219360627048006}
   - component: {fileID: 70115931463958004}
   - component: {fileID: 50631474213730086}
+  - component: {fileID: 4749180008757394348}
   m_Layer: 0
   m_Name: Cookie
   m_TagString: Untagged
@@ -82,19 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114219360627048006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143281230432202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 060e2ce974fe6443c849526d912c49be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  randPowerStandard: 10
 --- !u!70 &70115931463958004
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -132,3 +119,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4749180008757394348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143281230432202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29d2d397349a4222a7e4b927c09a569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceUpPower: 30

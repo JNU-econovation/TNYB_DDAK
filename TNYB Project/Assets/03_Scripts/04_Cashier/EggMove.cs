@@ -7,11 +7,14 @@ public class EggMove : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private SpriteRenderer sr;
 	public Sprite CrushedEgg;
-	private const string bottomTag = "bottom";
 	public float randPowerStandard = 10.0f;
-	private bool isCrushed = false;
 	
 	private AudioSource audioSource;
+	
+	private bool isHitTheGround;
+	private const string bottomTag = "bottom";
+    
+	public int beforeHitTheGround = 150;
 	
 	private void Awake()
 	{
@@ -20,28 +23,32 @@ public class EggMove : MonoBehaviour {
 		
 		float randPower = Random.Range(randPowerStandard - 3, randPowerStandard + 3);
 		rb2d.AddForce(Vector3.up * randPower);
-		isCrushed = false;
+		isHitTheGround = false;
 		
 		audioSource = GetComponent<AudioSource>();
 	}
 	
 	private void OnMouseDown()
 	{
-		if(!isCrushed)
+		if(!isHitTheGround)
 		{
 			GameManager.Instance.setIsClear(true);
-			int price = Random.Range(1, 3) * 1000;
-			GameManager.Instance.changePriceText(price);
+			addScore(beforeHitTheGround);
 			GameManager.Instance.playScannerSound();
 			Destroy(gameObject, 0.01f);
 		}
 	}
 	
 	public virtual void OnCollisionEnter2D(Collision2D col)
-	{	
+	{
+		if (isHitTheGround)
+		{
+			return;
+		}
+		
 		if (col.gameObject.tag.Equals(bottomTag))
 		{
-			isCrushed = true;
+			isHitTheGround = true;
 			sr.sprite = CrushedEgg;
 
 			audioSource.Play();
@@ -71,5 +78,11 @@ public class EggMove : MonoBehaviour {
 			sr.color = tColor;
 			yield return null;
 		}
+	}
+	
+	private void addScore(int beforeHitTheGround)
+	{
+		GameManager.Instance.changePriceText(beforeHitTheGround);
+		GameManager.Instance.addScore(beforeHitTheGround);
 	}
 }

@@ -8,11 +8,13 @@
           <e p="04_Cashier" t="Include">
             <e p="cheeseMove.cs" t="Include" />
             <e p="cherryMove.cs" t="Include" />
+            <e p="CookieMove.cs" t="Include" />
             <e p="EggMove.cs" t="Include" />
             <e p="FishMove.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="Hand.cs" t="Include" />
             <e p="Marchandise.cs" t="Include" />
+            <e p="MilkMove.cs" t="Include" />
             <e p="potatoMove.cs" t="Include" />
             <e p="smallTissueMove.cs" t="Include" />
             <e p="Timer.cs" t="Include" />

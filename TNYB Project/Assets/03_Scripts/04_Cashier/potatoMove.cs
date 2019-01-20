@@ -9,6 +9,41 @@ public class potatoMove : MonoBehaviour {
 	[SerializeField]private float forceUpPower = 2.0f;
 	[SerializeField]private float torquePower = 500.0f;
 	private int leftRight;
+	
+	private bool isHitTheGround = false;
+	private const string bottomTag = "bottom";
+    
+	public int beforeHitTheGround = 250;
+	public int afterHitTheGround = 100;
+	
+	public virtual void OnCollisionEnter2D(Collision2D col)
+	{		
+		if (isHitTheGround)
+		{
+			return;
+		}
+		
+		if (col.gameObject.tag.Equals(bottomTag))
+		{
+			// Hit The Ground
+			isHitTheGround = true;
+		}
+	}
+	
+	private void OnMouseDown()
+	{
+		GameManager.Instance.setIsClear(true);
+		addScore(beforeHitTheGround, afterHitTheGround);
+		GameManager.Instance.playScannerSound();
+		Destroy(gameObject, 0.01f);
+	}
+
+	private void addScore(int beforeHitTheGround, int afterHitTheGround)
+	{
+		int score = (isHitTheGround) ? afterHitTheGround : beforeHitTheGround;
+		GameManager.Instance.changePriceText(score);
+		GameManager.Instance.addScore(score);
+	}
 
 	private void Awake()
 	{

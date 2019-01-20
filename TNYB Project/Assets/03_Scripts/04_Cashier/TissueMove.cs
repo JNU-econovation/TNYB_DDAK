@@ -11,6 +11,26 @@ public class TissueMove : MonoBehaviour
     public GameObject tissue1;
     public GameObject tissue2;
     private List<GameObject> tissueList = new List<GameObject>();
+    
+    private bool isHitTheGround = false;
+    private const string bottomTag = "bottom";
+    
+    public int beforeHitTheGround = 100;
+    public int afterHitTheGround = 50;
+    
+    public virtual void OnCollisionEnter2D(Collision2D col)
+    {		
+        if (isHitTheGround)
+        {
+            return;
+        }
+		
+        if (col.gameObject.tag.Equals(bottomTag))
+        {
+            // Hit The Ground
+            isHitTheGround = true;
+        }
+    }
 
     private void Awake()
     {
@@ -28,12 +48,17 @@ public class TissueMove : MonoBehaviour
     private void OnMouseDown()
     {
         RespawnTissues();
-//        GameManager.Instance.setIsClear(true);
-//        int price = Random.Range(1, 9) * 1000;
-//        GameManager.Instance.changePriceText(price);
         GameManager.Instance.playScannerSound();
+        addScore(beforeHitTheGround, afterHitTheGround);
         GameManager.Instance.generateTissue();
         Destroy(gameObject, 0.01f);
+    }
+    
+    private void addScore(int beforeHitTheGround, int afterHitTheGround)
+    {
+        int score = (isHitTheGround) ? afterHitTheGround : beforeHitTheGround;
+        GameManager.Instance.changePriceText(score);
+        GameManager.Instance.addScore(score);
     }
 
     private void RespawnTissues()
@@ -57,9 +82,4 @@ public class TissueMove : MonoBehaviour
         tempTissue4.transform.position = this.transform.position + Vector3.right * 0.2f + Vector3.down * 0.2f;
     }
 
-    public void Click()
-    {
-        // 
-        // 점수 +
-    }
 }

@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
 	
 	// Text
 	public Text PriceTag;
+	public Text ScoreText;
+	
+	// Score
+	private int score;
 	
 	// Sound
 	private AudioSource audioSource;
@@ -88,6 +92,8 @@ public class GameManager : MonoBehaviour
 			RespawnMarchandise();
 			bCanMarchandiseRespawn = false;
 		}
+
+		ScoreText.text = score.ToString();
 	}
 
 	private void RespawnRandomTfHand()
@@ -114,6 +120,11 @@ public class GameManager : MonoBehaviour
 	public void changePriceText(int price)
 	{
 		PriceTag.text = price.ToString() + "$";
+	}
+
+	public void addScore(int score)
+	{
+		this.score += score;
 	}
 	
 	// Play Audio

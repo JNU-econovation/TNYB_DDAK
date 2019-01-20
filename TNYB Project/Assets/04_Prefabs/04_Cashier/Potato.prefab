@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 212171328027735858}
   - component: {fileID: 50287601613652354}
   - component: {fileID: 58178930809807776}
-  - component: {fileID: 114171120565332868}
   - component: {fileID: 114520677860846132}
   m_Layer: 0
   m_Name: Potato
@@ -120,19 +119,6 @@ CircleCollider2D:
   m_Offset: {x: -0.008707583, y: -0.008707464}
   serializedVersion: 2
   m_Radius: 0.3606798
---- !u!114 &114171120565332868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635417301147324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 060e2ce974fe6443c849526d912c49be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  randPowerStandard: 10
 --- !u!114 &114520677860846132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,3 +134,5 @@ MonoBehaviour:
   forceHorizontalPower: 300
   forceUpPower: 350
   torquePower: 120
+  beforeHitTheGround: 250
+  afterHitTheGround: 150

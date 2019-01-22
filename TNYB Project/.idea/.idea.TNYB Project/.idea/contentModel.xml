@@ -7,6 +7,12 @@
         <e p="03_Scripts" t="Include">
           <e p="00_Auth" t="Include">
             <e p="firebase_auth.cs" t="Include" />
+            <e p="RealtimeDatabase.cs" t="Include" />
+          </e>
+          <e p="01_Main" t="Include">
+            <e p="MainManager.cs" t="Include" />
+            <e p="TextMoveA.cs" t="Include" />
+            <e p="TextMoveB.cs" t="Include" />
           </e>
           <e p="04_Cashier" t="Include">
             <e p="cheeseMove.cs" t="Include" />
@@ -22,6 +28,15 @@
             <e p="smallTissueMove.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
             <e p="TissueMove.cs" t="Include" />
+          </e>
+          <e p="06_Factory" t="Include">
+            <e p="ButtonClicked.cs" t="Include" />
+            <e p="FactoryManager.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="SelectChange.cs" t="Include" />
+            <e p="settingButton.cs" t="Include" />
+            <e p="stopButton.cs" t="Include" />
+            <e p="TimerScript.cs" t="Include" />
           </e>
         </e>
         <e p="8 Bit Composers Super Pack LE (Free)" t="Include">
@@ -44,11 +59,17 @@
                   <e p="firebase-auth-unity" t="Include">
                     <e p="maven-metadata.xml" t="Include" />
                   </e>
+                  <e p="firebase-database-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
                 </e>
               </e>
             </e>
           </e>
           <e p="Plugins" t="Include">
+            <e p="Http" t="Include">
+              <e p="link.xml" t="Include" />
+            </e>
             <e p="link.xml" t="Include" />
           </e>
         </e>

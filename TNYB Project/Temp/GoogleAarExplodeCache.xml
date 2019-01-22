@@ -25,7 +25,7 @@
   </explodeData>
   <explodeData>
     <aar>android.arch.lifecycle.runtime-1.0.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:41+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar</path>
@@ -49,7 +49,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-compat-26.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar</path>
@@ -61,7 +61,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-core-ui-26.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar</path>
@@ -73,7 +73,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-core-utils-26.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar</path>
@@ -85,7 +85,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-fragment-26.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar</path>
@@ -97,7 +97,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-media-compat-26.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar</path>
@@ -109,7 +109,7 @@
   </explodeData>
   <explodeData>
     <aar>com.android.support.support-v4-26.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar</path>
@@ -121,7 +121,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-ads-identifier-16.0.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-16.0.0.aar</path>
@@ -133,7 +133,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-base-16.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-base-16.0.1.aar</path>
@@ -145,7 +145,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-basement-16.1.0</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-basement-16.1.0.aar</path>
@@ -157,7 +157,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-flags-16.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-flags-16.0.1.aar</path>
@@ -169,7 +169,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-measurement-api-16.0.3</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-16.0.3.aar</path>
@@ -181,7 +181,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-measurement-base-16.0.4</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-16.0.4.aar</path>
@@ -193,7 +193,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-stats-16.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-stats-16.0.1.aar</path>
@@ -205,7 +205,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.android.gms.play-services-tasks-16.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-16.0.1.aar</path>
@@ -217,7 +217,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-analytics-16.0.5</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-16.0.5.aar</path>
@@ -229,7 +229,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-analytics-impl-16.2.3</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-impl-16.2.3.aar</path>
@@ -241,7 +241,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-app-unity-5.4.3</aar>
-    <modificationTime>2019-01-15T23:15:21+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:53+09:00</modificationTime>
     <explode>true</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-5.4.3.aar</path>
@@ -253,7 +253,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-auth-16.0.5</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-16.0.5.aar</path>
@@ -265,7 +265,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-auth-interop-16.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-interop-16.0.1.aar</path>
@@ -277,7 +277,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-auth-unity-5.4.3</aar>
-    <modificationTime>2019-01-15T23:15:22+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:53+09:00</modificationTime>
     <explode>true</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-5.4.3.aar</path>
@@ -289,7 +289,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-common-16.0.4</aar>
-    <modificationTime>2019-01-15T23:15:23+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:53+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-common-16.0.4.aar</path>
@@ -301,7 +301,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-core-16.0.5</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-core-16.0.5.aar</path>
@@ -312,8 +312,44 @@
     <ignoredVersion />
   </explodeData>
   <explodeData>
+    <aar>com.google.firebase.firebase-database-16.0.5</aar>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.Company.ProductName</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-database-16.0.5.aar</path>
+    <availableAbis>universal</availableAbis>
+    <targetAbi>armeabi-v7a,x86</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-database-collection-16.0.1</aar>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.Company.ProductName</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-database-collection-16.0.1.aar</path>
+    <availableAbis>universal</availableAbis>
+    <targetAbi>armeabi-v7a,x86</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-database-unity-5.4.3</aar>
+    <modificationTime>2019-01-21T14:00:54+09:00</modificationTime>
+    <explode>true</explode>
+    <bundleId>com.Company.ProductName</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-database-unity-5.4.3.aar</path>
+    <availableAbis>armeabi-v7a,x86</availableAbis>
+    <targetAbi>armeabi-v7a,x86</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>false</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
     <aar>com.google.firebase.firebase-iid-17.0.3</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-17.0.3.aar</path>
@@ -325,7 +361,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-iid-interop-16.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-16.0.1.aar</path>
@@ -337,7 +373,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-measurement-connector-17.0.1</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-17.0.1.aar</path>
@@ -349,7 +385,7 @@
   </explodeData>
   <explodeData>
     <aar>com.google.firebase.firebase-measurement-connector-impl-17.0.3</aar>
-    <modificationTime>2019-01-15T23:15:07+09:00</modificationTime>
+    <modificationTime>2019-01-21T14:00:42+09:00</modificationTime>
     <explode>false</explode>
     <bundleId>com.Company.ProductName</bundleId>
     <path>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-impl-17.0.3.aar</path>

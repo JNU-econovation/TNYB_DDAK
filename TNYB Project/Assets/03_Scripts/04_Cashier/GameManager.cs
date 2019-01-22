@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
 		marchandisePrefabsList.Add(marchandise5);
 		marchandisePrefabsList.Add(marchandise6);
 		marchandisePrefabsList.Add(marchandise7);
-		marchandisePrefabsList.Add(marchandise8);
+		marchandisePrefabsList.Add(marchandise8);	// Egg
 		
 		// Audio
 		audioSource = GetComponent<AudioSource>();
@@ -104,12 +104,20 @@ public class GameManager : MonoBehaviour
 		tempHand = Instantiate(hand);
 		tempHand.transform.position = handTfList[handTfIndex].position;
 	}
+
+	private int numberOfEgg;
 	
 	public void RespawnMarchandise()
 	{
 		isClear = false;
 
 		int marchandiseIndex = Random.Range(0, marchandisePrefabsList.Count);
+		if (marchandiseIndex == 7)
+		{
+			numberOfEgg++;
+		}
+		
+		
 		
 		GameObject tempMarchandise;
 		tempMarchandise = Instantiate(marchandisePrefabsList[marchandiseIndex]);
